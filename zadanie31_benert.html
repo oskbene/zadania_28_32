@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript">
+var pudełko = {
+  wysokosc: '15cm',
+  szerokosc: '20cm',
+  z_czego_wykonane: 'karton',
+  pokaz: function () {
+    document.write(this.wysokosc + 'x' + this.szerokosc + ' ' + this.z_czego_wykonane);
+  }
+};
+pudełko.pokaz();
+pudełko.kolor = 'brązowy';
+pudełko.wypisz = function() {
+  alert('kolor: ' + this.kolor);
+};
+pudełko.wypisz();
+</script>
+</head>
+<body>
+<br>
+Programowanie obiektowe- Oskar Benert 3Gg1
+</body>
+</html>
